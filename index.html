@@ -1,93 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Think Link - Educational Games</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Think Link</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Think Link</h1>
-    <p>Your source for affordable, fun, and educational games for kids!</p>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#products">Our Products</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Home Section -->
-  <section id="home">
-    <div class="container">
-      <h2>About Think Link</h2>
-      <p>Think Link is a business dedicated to providing affordable, high-quality, and engaging educational games for children. Instead of spending large amounts of money on textbooks that may not engage or benefit your child, we offer interactive games that make learning enjoyable.</p>
-      <p>Our goal is to help children develop essential skills in subjects like mathematics, language arts, critical thinking, and problem-solving—all through fun and hands-on play. Think Link is an excellent choice for parents who want their children to learn while enjoying their playtime.</p>
-      <p>At Think Link, we believe that learning should be fun and interactive, which is why we focus on games that are both educational and engaging. Whether you are looking to improve your child's math skills or enhance their creativity and vocabulary, we have the perfect game for you. Our products are available at affordable prices, and many of them are marketed on Amazon for easy access.</p>
-      <p>Join the Think Link family today, and give your child the gift of fun and educational experiences!</p>
+    <header>
+        <h1>Think Link</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Our Products</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div class="content">
+        <section id="about">
+            <h2>About Think Link</h2>
+            <p>Think Link is dedicated to providing affordable and fun educational games for kids. We believe in making learning an engaging and interactive experience. Instead of spending a fortune on books that may go unused, explore our collection of high-quality, affordable games that make education enjoyable for your children. Most of our items are marketed on Amazon, ensuring a seamless shopping experience.</p>
+        </section>
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Explore our range of engaging educational games designed to make learning fun for kids of all ages!</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have any questions or need assistance? Feel free to reach out to us at:</p>
+            <a href="mailto:thinklink.aus@outlook.com">thinklink.aus@outlook.com</a>
+        </section>
     </div>
-  </section>
-
-  <!-- Products Section -->
-  <section id="products">
-    <div class="container">
-      <h2>Our Products</h2>
-      <p>Explore a wide range of educational games for your kids. We offer games that promote learning in subjects like math, language arts, science, and more. Affordable, engaging, and fun!</p>
-      
-      <!-- Product Cards -->
-      <div class="product-card">
-        <img src="path/to/product1.jpg" alt="Interactive Math Games">
-        <h3>Interactive Math Games</h3>
-        <p>Engage your child with exciting math puzzles that enhance their mathematical skills.</p>
-        <p><strong>Price:</strong> $19.99</p>
-        <button>Add to Cart</button>
-      </div>
-
-      <div class="product-card">
-        <img src="path/to/product2.jpg" alt="Language & Vocabulary Games">
-        <h3>Language & Vocabulary Games</h3>
-        <p>Fun and interactive ways to help children build their vocabulary and language skills.</p>
-        <p><strong>Price:</strong> $14.99</p>
-        <button>Add to Cart</button>
-      </div>
-
-      <div class="product-card">
-        <img src="path/to/product3.jpg" alt="Science Learning Kits">
-        <h3>Science Learning Kits</h3>
-        <p>Hands-on science kits to help your child explore and learn about science in a fun way.</p>
-        <p><strong>Price:</strong> $24.99</p>
-        <button>Add to Cart</button>
-      </div>
-
-      <div class="product-card">
-        <img src="path/to/product4.jpg" alt="Puzzle Games for Critical Thinking">
-        <h3>Puzzle Games for Critical Thinking</h3>
-        <p>Develop problem-solving skills through exciting puzzles and brain teasers.</p>
-        <p><strong>Price:</strong> $9.99</p>
-        <button>Add to Cart</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section (Increased Size) -->
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <p style="font-size: 1.5em; padding: 20px 0;">
-        If you have any questions or inquiries, feel free to reach out! We would love to hear from you and assist with any information you need about our products.
-      </p>
-      <p style="font-size: 1.3em;">
-        Email: <a href="mailto:zohaibmalik.pk@outlook.com" style="font-size: 1.3em; color: #0066cc;">zohaibmalik.pk@outlook.com</a>
-      </p>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Think Link. All Rights Reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Think Link. All rights reserved.</p>
+    </footer>
 </body>
 </html>
